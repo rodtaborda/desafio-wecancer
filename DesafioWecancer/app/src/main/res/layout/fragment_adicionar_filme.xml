@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rodrigotaborda.desafiowecancer.Fragmentos.AdicionarFilmeFragment"
+    android:background="@color/colorBackground"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/textViewFilmeFavorito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_favorite_movie"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorText" />
+
+    <EditText
+        android:id="@+id/editTextFilmeFavorito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:hint="@string/movie_name"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"
+        android:layout_below="@id/textViewFilmeFavorito"
+        android:layout_marginTop="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_white_background"
+        android:padding="16dp"
+        android:imeOptions="actionDone"
+        android:fontFamily="sans-serif"
+        android:clickable="true"/>
+
+
+    <Button
+        android:id="@+id/buttonEnviarFilme"
+        android:text="@string/send_movie_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:layout_below="@+id/editTextFilmeFavorito"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorText"
+        android:layout_margin="10dp"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rodrigotaborda.desafiowecancer.Fragmentos.MainFragment"
+    android:clickable="true">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:titleTextColor="@android:color/white"
+        app:title="@string/app_name">
+
+        <TextView
+            android:id="@+id/textViewSair"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/logout"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:layout_gravity="end|center_vertical"
+            android:layout_alignParentBottom="true" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <rodrigotaborda.desafiowecancer.TabAdapter.SlidingTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:id="@+id/stl_tabs"
+        android:background="@android:color/white"
+        android:layout_below="@id/toolbar"
+        android:clickable="true" />
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vp_pagina"
+        android:layout_below="@id/stl_tabs" />
+
+</RelativeLayout>

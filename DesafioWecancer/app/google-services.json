@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "538869903360",
+    "firebase_url": "https://desafiowecancer.firebaseio.com",
+    "project_id": "desafiowecancer",
+    "storage_bucket": "desafiowecancer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538869903360:android:6bbfe65069095e67",
+        "android_client_info": {
+          "package_name": "rodrigotaborda.desafiowecancer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538869903360-1tqna2l8iqbn9bjeqjeuekfajj6hcrke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rodrigotaborda.desafiowecancer",
+            "certificate_hash": "a75a0406382a04002cfaaaf2fa3ae0c085a9a649"
+          }
+        },
+        {
+          "client_id": "538869903360-7e443cjgh6aoje9pulvvlq9b8upbbe18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzjNbLDxs8z3OZe1Tu2rqYj9bVBSjMSgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538869903360-7e443cjgh6aoje9pulvvlq9b8upbbe18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
